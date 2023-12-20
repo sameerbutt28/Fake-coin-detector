@@ -13,7 +13,7 @@ function App() {
       const j = Math.floor(Math.random() * (i + 1));
       [coins[i], coins[j]] = [coins[j], coins[i]];
     }
-    return coins;
+    return coins; 
   };
 
   const findFakeCoin = (coins, start, end) => {
