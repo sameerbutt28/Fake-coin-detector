@@ -66,7 +66,7 @@ function App() {
       <form onSubmit={handleSubmit}>
         <input 
           type="number"
-          min="1"
+          min="1" 
           value={numCoins}
           onChange={(e) => setNumCoins(e.target.value)}
           placeholder="Enter number of coin"
