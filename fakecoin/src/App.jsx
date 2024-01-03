@@ -64,7 +64,7 @@ function App() {
     </header>         
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-        <button></button>
+        <button onAbort={handleSubmit}></button>
         <input 
           type="number"
           min="1" 
