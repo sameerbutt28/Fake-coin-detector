@@ -65,7 +65,7 @@ function App() {
     </header>         
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-        <input 
+        <input  
           type="number"
           min="1" 
           value={numCoins}
