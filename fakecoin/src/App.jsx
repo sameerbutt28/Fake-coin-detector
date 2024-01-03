@@ -61,14 +61,10 @@ function App() {
         the position of the fake coin. The algorithm efficiently narrows down the fake coin position by dividing the 
         set into two groups and comparing their weights in each iteration.
       </p> 
-      const handleSubmit=()=>
-      {
-        
-      } 
+     
     </header>         
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-        <button onAbort={handleSubmit}></button>
         <input 
           type="number"
           min="1" 
