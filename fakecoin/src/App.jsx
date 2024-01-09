@@ -1,6 +1,7 @@
 import  { useState } from 'react';
 import './App.css';
-            
+import './App.css';
+              
 function App() {
   const [numCoins, setNumCoins] = useState('');
   const [fakeCoinIndex, setFakeCoinIndex] = useState(null);
