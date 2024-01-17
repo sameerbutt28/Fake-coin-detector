@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   const [numCoins, setNumCoins] = useState('');
   const [fakeCoinIndex, setFakeCoinIndex] = useState(null);
-                                     
+                                        
   const randomizeCoins = (n) => {
     const realCoin = 1;
     const fakeCoin = 0;
